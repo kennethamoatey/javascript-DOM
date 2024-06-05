@@ -1,0 +1,10 @@
+img{
+    height:auto;
+    width:500px;
+}
+.show{
+    display:inline-block;
+}
+.btn{
+    display:block;
+}

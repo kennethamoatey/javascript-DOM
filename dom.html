@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <title>DOM manipulation</title>
+</head>
+
+<body>
+
+    <img id="gate" src="https://images.theconversation.com/files/424061/original/file-20210930-22-1td8sd1.jpg?ixlib=rb-4.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip"
+    width="500" height="auto">
+
+    <h1 id="head">Country Side</h1>    
+
+
+    <button onclick="clickMe()">PRESS</button>
+
+
+
+    <script>
+    let nature=document.getElementById('gate');
+     nature.src="https://cdn.calor.co.uk/-/media/sites/greatbritain/blog-imagery/countryside-living.jpg?mw=1366&rev=623e3b68249643cbbdf60f207a747889"
+     
+     let head=document.getElementById('head')
+     function clickMe(){
+        head.innerHTML='COOL NATURE'
+        alert ('button clicked')
+     }
+    </script>
+</body>
+</html>
