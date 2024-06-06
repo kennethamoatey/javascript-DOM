@@ -5,6 +5,13 @@ img{
 .show{
     display:inline-block;
 }
+
+.hide{
+    display: none;
+}
+
+
+
 .btn{
     display:block;
 }
